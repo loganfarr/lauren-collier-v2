@@ -1,4 +1,30 @@
 /* Master Styles */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+
+* {
+  -webkit-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  transition: 0.2s all;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,h2,h3,h4,h5,h6,p,div,span {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
