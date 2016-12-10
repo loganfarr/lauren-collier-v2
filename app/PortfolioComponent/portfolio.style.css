@@ -1,0 +1,56 @@
+#portfolio {
+  background: #000;
+}
+
+#portfolio .row,
+#portfolio .col-xs-12,
+#portfolio .col-md-6 {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#portfolio h2 {
+  position: absolute;
+  margin: 0;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  font-family: 'Bad Script', 'Roboto', Arial, Helvetica, sans-serif;
+  text-shadow: 0px 0px 1px #333;
+}
+
+h2.text-bottom {
+  bottom: 10%;
+}
+
+h2.text-top {
+  top: 10%;
+}
+
+h2.text-left {
+  left: 10%;
+}
+
+h2.text-right {
+  right: 10%;
+}
+
+.category {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  -o-transition: 0.2s all;
+  transition: 0.2s all;
+  background-position: center;
+  cursor: pointer;
+}
+
+.category:hover {
+  background-size: auto 110%;
+}
