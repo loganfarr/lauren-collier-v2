@@ -8,19 +8,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("@angular/core");
+var core_1 = require('@angular/core');
 var NavigationComponent = (function () {
     function NavigationComponent() {
     }
+    NavigationComponent = __decorate([
+        core_1.Component({
+            selector: 'navigation',
+            templateUrl: 'app/NavigationComponent/navigation.component.html',
+            styleUrls: ['app/NavigationComponent/navigation.style.css']
+        }), 
+        __metadata('design:paramtypes', [])
+    ], NavigationComponent);
     return NavigationComponent;
 }());
-NavigationComponent = __decorate([
-    core_1.Component({
-        selector: 'navigation',
-        templateUrl: 'app/NavigationComponent/navigation.component.html',
-        styleUrls: ['app/NavigationComponent/navigation.style.css']
-    }),
-    __metadata("design:paramtypes", [])
-], NavigationComponent);
 exports.NavigationComponent = NavigationComponent;
 //# sourceMappingURL=navigation.component.js.map

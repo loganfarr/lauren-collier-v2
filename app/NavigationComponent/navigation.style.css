@@ -5,3 +5,14 @@
   z-index: 100;
   width: 100%;
 }
+
+.navbar a {
+  font-size: 16px;
+  color: #333;
+  
+}
+
+.navbar a:hover {
+  background: transparent;
+  color: #337ab7;
+}
