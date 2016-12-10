@@ -15,4 +15,10 @@
 #logo {
   margin-top: 7%;
   max-width: 75%;
+  margin-bottom: 30px;
+}
+
+.home-container .info-container .btn {
+  margin-left: 10px;
+  margin-right: 10px;
 }
