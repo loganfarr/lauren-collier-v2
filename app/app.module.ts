@@ -3,6 +3,7 @@ import { BrowserModule }           from '@angular/platform-browser';
 import { HttpModule, JsonpModule } from '@angular/http';
 
 import { AppComponent }         from './app.component';
+import { AboutComponent }       from './AboutComponent/about.component';
 import { HomeComponent }        from './HomeComponent/home.component';
 import { NavigationComponent }  from './NavigationComponent/navigation.component';
 import { PortfolioComponent }   from './PortfolioComponent/portfolio.component';
@@ -19,6 +20,7 @@ import { SpinnerComponent }     from './SpinnerComponent/spinner.component';
   ],
   declarations: [ 
     AppComponent,
+    AboutComponent,
     HomeComponent,
     NavigationComponent,
     PortfolioComponent,

@@ -12,6 +12,7 @@ var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var http_1 = require('@angular/http');
 var app_component_1 = require('./app.component');
+var about_component_1 = require('./AboutComponent/about.component');
 var home_component_1 = require('./HomeComponent/home.component');
 var navigation_component_1 = require('./NavigationComponent/navigation.component');
 var portfolio_component_1 = require('./PortfolioComponent/portfolio.component');
@@ -31,6 +32,7 @@ var AppModule = (function () {
             ],
             declarations: [
                 app_component_1.AppComponent,
+                about_component_1.AboutComponent,
                 home_component_1.HomeComponent,
                 navigation_component_1.NavigationComponent,
                 portfolio_component_1.PortfolioComponent,
