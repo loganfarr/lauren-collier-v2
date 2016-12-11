@@ -7,8 +7,6 @@
 #portfolio .col-md-6 {
   padding-left: 0;
   padding-right: 0;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 #portfolio h2 {
@@ -16,8 +14,8 @@
   margin: 0;
   color: #fff;
   font-size: 4em;
-  font-weight: bold;
-  font-family: 'Bad Script', 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-family: CaviarDreams, 'Roboto', Arial, Helvetica, sans-serif;
   text-shadow: 0px 0px 1px #333;
 }
 
