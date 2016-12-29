@@ -1,0 +1,27 @@
+<div class="container">
+  <h1>Contact Me</h1>
+  <form [formGroup]="form" (submit)="onSubmit">
+    <div class="form-group">
+      <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" formControlName="name" class="form-control" [(ngModel)]="name" />
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" formControlName="email" class="form-control" [(ngModel)]="email" />
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" id="phone" formControlName="phone" class="form-control" [(ngModel)]="phone" />
+        </div> 
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" formControlName="message" class="form-control" [(ngModel)]="message"></textarea>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

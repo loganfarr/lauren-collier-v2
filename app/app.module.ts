@@ -1,9 +1,11 @@
-import { NgModule }                from '@angular/core';
-import { BrowserModule }           from '@angular/platform-browser';
-import { HttpModule, JsonpModule } from '@angular/http';
+import { NgModule }                         from '@angular/core';
+import { BrowserModule }                    from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpModule, JsonpModule }          from '@angular/http';
 
 import { AppComponent }         from './app.component';
 import { AboutComponent }       from './AboutComponent/about.component';
+import { ContactComponent }     from './ContactComponent/contact.component';
 import { HomeComponent }        from './HomeComponent/home.component';
 import { NavigationComponent }  from './NavigationComponent/navigation.component';
 import { PortfolioComponent }   from './PortfolioComponent/portfolio.component';
@@ -14,13 +16,16 @@ import { SpinnerComponent }     from './SpinnerComponent/spinner.component';
 @NgModule({
   imports:      [ 
     BrowserModule,
+    FormsModule,
     HttpModule,
     JsonpModule,
+    ReactiveFormsModule,
     routing 
   ],
   declarations: [ 
     AppComponent,
     AboutComponent,
+    ContactComponent,
     HomeComponent,
     NavigationComponent,
     PortfolioComponent,
