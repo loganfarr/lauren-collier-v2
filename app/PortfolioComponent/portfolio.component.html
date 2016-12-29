@@ -1,3 +1,10 @@
+<!-- <div class="container-fluid">
+  <div class="row overlay">
+    <div class="col-xs-12">
+      <img src="/assets/images/logo.png" id="logo" width="450" />
+    </div>
+  </div>
+</div> -->
 <spinner [visible]="isLoading"></spinner>
 <div id="portfolio" class="container-fluid">
   <div *ngFor="let category of categories, let i = index">
@@ -6,7 +13,7 @@
         <div class="category" [ngStyle]="{ 
           backgroundImage : categories[i].coverImage ? 'url(' + categories[i].coverImage + ')' : ''
         }">
-          <h2 [class]="categories[i].textPos">{{ categories[i].title }}</h2>
+          <h2>{{ categories[i].title }}</h2>
           <!-- <img [src]="categories[i].coverImage" [alt]="categories[i].title" /> -->
         </div>
       </div>
@@ -14,7 +21,7 @@
         <div class="category" [ngStyle]="{ 
           backgroundImage : categories[i + 1].coverImage ? 'url(' + categories[i + 1].coverImage + ')' : ''
         }">
-          <h2 [class]="categories[i + 1].textPos">{{ categories[i + 1].title }}</h2>
+          <h2>{{ categories[i + 1].title }}</h2>
           <!-- <img [src]="categories[i + 1].coverImage" [alt]="categories[i + 1].title" /> -->
         </div>
       </div>

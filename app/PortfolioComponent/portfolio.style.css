@@ -10,29 +10,14 @@
 }
 
 #portfolio h2 {
-  position: absolute;
   margin: 0;
   color: #fff;
-  font-size: 4em;
-  font-weight: 400;
-  font-family: CaviarDreams, 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 5em;
+  font-weight: 100;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   text-shadow: 0px 0px 1px #333;
-}
-
-h2.text-bottom {
-  bottom: 10%;
-}
-
-h2.text-top {
-  top: 10%;
-}
-
-h2.text-left {
-  left: 10%;
-}
-
-h2.text-right {
-  right: 10%;
+  padding-top: 15%;
+  text-align: center;
 }
 
 .category {
@@ -51,4 +36,16 @@ h2.text-right {
 
 .category:hover {
   background-size: auto 110%;
+}
+
+@media all and (min-width: 768px) {
+  #portfolio h2 {
+    font-size: 6em;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  #portfolio h2 {
+    font-size: 9em;
+  }
 }
