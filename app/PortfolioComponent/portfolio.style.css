@@ -1,12 +1,13 @@
 #portfolio {
-  background: #000;
+  background: #fff;
 }
 
 #portfolio .row,
 #portfolio .col-xs-12,
 #portfolio .col-md-6 {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-bottom: 1px;
 }
 
 #portfolio h2 {
