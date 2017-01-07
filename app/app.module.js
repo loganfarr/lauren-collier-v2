@@ -15,6 +15,7 @@ var http_1 = require('@angular/http');
 var app_component_1 = require('./app.component');
 var about_component_1 = require('./AboutComponent/about.component');
 var album_component_1 = require('./AlbumComponent/album.component');
+var album_service_1 = require('./AlbumService/album.service');
 var contact_component_1 = require('./ContactComponent/contact.component');
 var home_component_1 = require('./HomeComponent/home.component');
 var navigation_component_1 = require('./NavigationComponent/navigation.component');
@@ -46,6 +47,7 @@ var AppModule = (function () {
                 spinner_component_1.SpinnerComponent
             ],
             providers: [
+                album_service_1.AlbumService,
                 portfolio_service_1.PortfolioService
             ],
             bootstrap: [app_component_1.AppComponent]
