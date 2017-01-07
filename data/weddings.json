@@ -1,0 +1,79 @@
+{
+  "header": {
+    "header": "Wedding",
+    "logo": true,
+    "image": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/cover-images/wedding.jpg"
+  },
+  "photos": [
+    {
+      "largeSize": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/madeline_and_spencer.jpg",
+      "thumbnail": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/thumbs/madeline_and_spencer.jpg",
+      "title": "Madeline and Spencer Kendall",
+      "date": "December 26, 2016",
+      "tags": "wedding"
+    },
+    {
+      "largeSize": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/madeline_and_spencer.jpg",
+      "thumbnail": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/thumbs/madeline_and_spencer.jpg",
+      "title": "Madeline and Spencer Kendall",
+      "date": "December 26, 2016",
+      "tags": "wedding"
+    },
+    {
+      "largeSize": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/madeline_and_spencer.jpg",
+      "thumbnail": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/thumbs/madeline_and_spencer.jpg",
+      "title": "Madeline and Spencer Kendall",
+      "date": "December 26, 2016",
+      "tags": "wedding"
+    },
+    {
+      "largeSize": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/madeline_and_spencer.jpg",
+      "thumbnail": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/thumbs/madeline_and_spencer.jpg",
+      "title": "Madeline and Spencer Kendall",
+      "date": "December 26, 2016",
+      "tags": "wedding"
+    },
+    {
+      "largeSize": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/madeline_and_spencer.jpg",
+      "thumbnail": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/thumbs/madeline_and_spencer.jpg",
+      "title": "Madeline and Spencer Kendall",
+      "date": "December 26, 2016",
+      "tags": "wedding"
+    },
+    {
+      "largeSize": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/madeline_and_spencer.jpg",
+      "thumbnail": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/thumbs/madeline_and_spencer.jpg",
+      "title": "Madeline and Spencer Kendall",
+      "date": "December 26, 2016",
+      "tags": "wedding"
+    },
+    {
+      "largeSize": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/madeline_and_spencer.jpg",
+      "thumbnail": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/thumbs/madeline_and_spencer.jpg",
+      "title": "Madeline and Spencer Kendall",
+      "date": "December 26, 2016",
+      "tags": "wedding"
+    },
+    {
+      "largeSize": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/madeline_and_spencer.jpg",
+      "thumbnail": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/thumbs/madeline_and_spencer.jpg",
+      "title": "Madeline and Spencer Kendall",
+      "date": "December 26, 2016",
+      "tags": "wedding"
+    },
+    {
+      "largeSize": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/madeline_and_spencer.jpg",
+      "thumbnail": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/thumbs/madeline_and_spencer.jpg",
+      "title": "Madeline and Spencer Kendall",
+      "date": "December 26, 2016",
+      "tags": "wedding"
+    },
+    {
+      "largeSize": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/madeline_and_spencer.jpg",
+      "thumbnail": "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/wedding/thumbs/madeline_and_spencer.jpg",
+      "title": "Madeline and Spencer Kendall",
+      "date": "December 26, 2016",
+      "tags": "wedding"
+    }
+  ]
+}
