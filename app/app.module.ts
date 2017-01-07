@@ -5,6 +5,7 @@ import { HttpModule, JsonpModule }          from '@angular/http';
 
 import { AppComponent }         from './app.component';
 import { AboutComponent }       from './AboutComponent/about.component';
+import { AlbumComponent }       from './AlbumComponent/album.component';
 import { ContactComponent }     from './ContactComponent/contact.component';
 import { HomeComponent }        from './HomeComponent/home.component';
 import { NavigationComponent }  from './NavigationComponent/navigation.component';
@@ -25,6 +26,7 @@ import { SpinnerComponent }     from './SpinnerComponent/spinner.component';
   declarations: [ 
     AppComponent,
     AboutComponent,
+    AlbumComponent,
     ContactComponent,
     HomeComponent,
     NavigationComponent,
