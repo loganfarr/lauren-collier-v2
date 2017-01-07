@@ -1,36 +1,6 @@
 /* Master Styles */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
-// @import url('https://fonts.googleapis.com/css?family=Satisfy');
-// @import url('https://fonts.googleapis.com/css?family=Bad+Script');
-
-// @font-face {
-//   font-family: CaviarDreams;
-//   font-weight: 600;
-//   font-style: normal;
-//   src: url('/assets/fonts/caviar_dreams/CaviarDreams_Bold.ttf') format('truetype');
-// }
-
-// @font-face {
-//   font-family: CaviarDreams;
-//   font-weight: 600;
-//   font-style: italic;
-//   src: url('/assets/fonts/caviar_dreams/CaviarDreams_BoldItalic.ttf') format('truetype');
-// }
-
-// @font-face {
-//   font-family: CaviarDreams;
-//   font-weight: 400;
-//   font-style: italic;
-//   src: url('/assets/fonts/caviar_dreams/CaviarDreams_Italic.ttf') format('truetype');
-// }
-
-// @font-face {
-//   font-family: CaviarDreams;
-//   font-weight: 400;
-//   font-style: normal;
-//   src: url('/assets/fonts/caviar_dreams/CaviarDreams.ttf') format('truetype');
-// }
 
 * {
   -webkit-transition: 0.2s all;
@@ -94,6 +64,14 @@ h6 {
 
 p,div,span {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+a {
+
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .center {

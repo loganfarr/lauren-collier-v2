@@ -10,20 +10,24 @@
   <div *ngFor="let category of categories, let i = index">
     <div *ngIf="i % 2 == 0" class="row">
       <div class="col-xs-12 col-md-6">
-        <div class="category" [ngStyle]="{ 
-          backgroundImage : categories[i].coverImage ? 'url(' + categories[i].coverImage + ')' : ''
-        }">
-          <h2>{{ categories[i].title }}</h2>
-          <!-- <img [src]="categories[i].coverImage" [alt]="categories[i].title" /> -->
-        </div>
+        <a [routerLink]="['/portfolio', categories[i].title | lowercase]">
+          <div class="category" [ngStyle]="{ 
+            backgroundImage : categories[i].coverImage ? 'url(' + categories[i].coverImage + ')' : ''
+          }">
+            <h2>{{ categories[i].title }}</h2>
+            <!-- <img [src]="categories[i].coverImage" [alt]="categories[i].title" /> -->
+          </div>
+        </a>
       </div>
       <div class="col-xs-12 col-md-6" *ngIf="categories[i + 1]">
-        <div class="category" [ngStyle]="{ 
-          backgroundImage : categories[i + 1].coverImage ? 'url(' + categories[i + 1].coverImage + ')' : ''
-        }">
-          <h2>{{ categories[i + 1].title }}</h2>
-          <!-- <img [src]="categories[i + 1].coverImage" [alt]="categories[i + 1].title" /> -->
-        </div>
+        <a [routerLink]="['/portfolio', categories[i + 1].title | lowercase]">
+          <div class="category" [ngStyle]="{ 
+            backgroundImage : categories[i + 1].coverImage ? 'url(' + categories[i + 1].coverImage + ')' : ''
+          }">
+            <h2>{{ categories[i + 1].title }}</h2>
+            <!-- <img [src]="categories[i + 1].coverImage" [alt]="categories[i + 1].title" /> -->
+          </div>
+        </a>
       </div>
     </div>
   </div>
