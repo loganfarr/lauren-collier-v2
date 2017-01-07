@@ -1,0 +1,32 @@
+[
+  {
+    "title" : "Engagements",
+    "coverImage" : "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/cover-images/engagements.jpg",
+    "textPos" : "text-top text-right"
+  },
+  {
+    "title" : "Bridals",
+    "coverImage" : "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/cover-images/bridals.jpg",
+    "textPos" : "text-bottom text-left"
+  },
+  {
+    "title" : "Weddings",
+    "coverImage" : "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/cover-images/wedding.jpg",
+    "textPos" : "text-top text-right"
+  },
+  {
+    "title" : "Seniors",
+    "coverImage" : "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/cover-images/seniors.jpg",
+    "textPos" : "text-bottom text-left"
+  },
+  {
+    "title" : "Family",
+    "coverImage" : "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/cover-images/family.jpg",
+    "textPos" : "text-top text-right"
+  },
+  {
+    "title" : "Video",
+    "coverImage" : "https://s3-us-west-2.amazonaws.com/lauren-collier-photography/portfolio/cover-images/video.jpg",
+    "textPos" : "text-bottom text-left"
+  }
+]
