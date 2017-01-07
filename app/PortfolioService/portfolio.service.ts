@@ -9,6 +9,6 @@ export class PortfolioService {
   constructor(private _http: Http) {}
 
   getCategories() {
-    return this._http.get('/data/categories/categories.json').map(res => res.json());
+    return this._http.get('/data/categories.json').map(res => res.json());
   }
 }
