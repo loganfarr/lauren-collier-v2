@@ -1,0 +1,48 @@
+<div class="container-fluid">
+  <header class="album-header">
+  	<img src="/assets/images/logo.png" id="logo" width="450" alt="Lauren Collier Photography" />
+  	<img [src]="header.image" />
+  </header>	
+  <div class="viewing-options">
+  	<i 
+      class="fa fa-1x fa-th-large viewing-mode" 
+      [class.active]="viewingMode == 'thumbnails'"
+      (click)="changeViewingMode('thumbnails')">  
+    </i>
+  	<i 
+      class="fa fa-1x fa-bars viewing-mode"
+      [class.active]="viewingMode == 'list'"
+      (click)="changeViewingMode('list')">  
+    </i>
+  </div>	
+  <div class="photos clearfix">
+    <div class="thumbnails-view" *ngIf="viewingMode=='thumbnails'">
+      <img *ngFor="let photo of photos" [src]="photo.thumbnail" [alt]="photo.title" class="album-photo-thumb" />
+    </div>
+    <div class="list-view" *ngIf="viewingMode=='list'">
+      <div class="row photo" *ngFor="let photo of photos">
+        <div class="col-md-2 hidden-xs hidden-sm"></div>
+        <div class="col-md-8 col-xs-12">
+          <img [src]="photo.largeSize" />
+        </div>
+        <div class="col-md-2 col-xs-12">
+          <div class="title">
+            <i class="fa fa-camera fa-1x"></i>
+            {{ photo.title }}
+          </div>
+          <div class="date">
+            <i class="fa fa-1x fa-clock-o"></i>
+            {{ photo.date }}
+          </div>
+          <div class="tags">
+            <i class="fa fa-1x fa-tag"></i>
+            {{ photo.tags }}
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
+<div class="album-overlay" *ngIf="overlayActive">
+
+</div>

@@ -1,0 +1,47 @@
+.album-header {
+	padding: 10px;
+}
+
+.viewing-options {
+	width: 100%;
+	margin-right: 20px;
+  text-align: right;
+}
+
+.viewing-mode {
+	border: 1px solid black;
+  padding: 3px 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin: 3px;
+}
+
+.viewing-mode.active,
+.viewing-mode:hover {
+  background: #000;
+  color: #fff;
+}
+
+.thumbnails-view {
+  display: block;
+  text-align: center;
+}
+
+.album-photo-thumb {
+  margin: 3px;
+  display: inline-block;
+  max-height: 200px;
+}
+
+@media all and (min-width: 820px) {
+  .album-photo-thumb {
+    max-height: 250px;
+  }
+}
+
+@media all and (min-width: 1020px) {
+  .album-photo-thumb {
+    max-height: 400px;
+  }
+}
