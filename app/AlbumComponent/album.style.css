@@ -34,6 +34,10 @@
   max-height: 200px;
 }
 
+.list-view .row {
+  margin-bottom: 20px;
+}
+
 @media all and (min-width: 820px) {
   .album-photo-thumb {
     max-height: 250px;
